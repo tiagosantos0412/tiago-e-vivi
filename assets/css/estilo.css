@@ -1,0 +1,130 @@
+/*Importando as fontes que serão utilziadas*/
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+/*Configurações globais de reset CSS*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--fonte-padrao);
+    color: var(--cor5);
+}
+
+/*Declarando as variáveis do css*/
+:root {
+    --cor0: #f7f1f3;
+    --cor1: #f8f8f8;
+    --cor2: #d9d9d9;
+    --cor3: #cbcbcb;
+    --cor4: #727272;
+    --cor5: #222222;
+    
+
+    --fonte-padrao: 'Open Sans', sans-serif;
+    --fonte-destaque: 'Dancing Script', cursive;
+}
+
+/*Inicio da configuração do header e menu*/
+
+header {
+    min-height: 100px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+header > h1 {
+    font-weight: 500px;
+    font-family: var(--fonte-destaque);
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.13);
+}
+
+#menu {
+    text-align: left;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#menu > a {
+    text-decoration: none;
+    color: var(--cor5);
+    margin: 10px;
+}
+
+#menu > a:hover {
+    border-bottom: 2px solid var(--cor3);
+}
+
+/*fim da configuração do header e menu*/
+
+/*Inicio da configuração do artigo principal (main)*/
+
+main {
+    min-width: 280px;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    margin-bottom: 30px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.384);
+    border-radius: 0px 0px 10px 10px;
+}
+
+.transparencia {
+    width: 100%;
+    margin: auto;
+    color: var(--cor5);
+}
+
+/*Trabalhando na responsividade do banner*/
+
+picture > img {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+
+.retangulo1 {
+    width: auto;
+    border: 1px solid #2222224d;
+    height: 300px;
+    margin-left: -10px;
+}
+
+.retangulo2 {
+    padding: 20px;
+    position: relative;
+    border: 1px solid #2222224d;
+    width: auto;
+    height: 260px;
+    text-align: center;
+    margin-top: -290px;
+}
+
+.retangulo2 > .iniciais {
+    font-family: var(--fonte-destaque);
+    font-size: 3em;
+}
+
+.retangulo2 > p > span {
+    font-size: 2em;
+}
+
+/*Fim da configuração do artigo principal (main)*/
+
+/*Inicio da configuração do footer*/
+
+footer{
+    text-align: center;
+    height: 30px;
+    background-color: var(--cor5);
+    color: var(--cor1);
+    padding: 20px;
+}
+
+/*Inicio da configuração do footer*/
