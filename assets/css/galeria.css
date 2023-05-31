@@ -1,0 +1,128 @@
+/*Definindo a fonte a ser utilizada*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;700&display=swap');
+/*Resetando as configurações e atribuindo a fonte ao projeto*/
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/*Definir a equivalência do tamanho da fonte de 10 pixels para melhor podermos trabalhar com medidas reltivas*/
+:root {
+    font-size: 62.5%;/*Equivalente a 10 pixels, para podermos trabalhar cm medidas relativas.*/
+
+    --cor0: #f7f1f3;
+    --cor1: #f8f8f8;
+    --cor2: #d9d9d9;
+    --cor3: #cbcbcb;
+    --cor4: #727272;
+    --cor5: #222222;
+    --cor6: #efefdc69;
+    
+
+    --fonte-padrao: 'Open Sans', sans-serif;
+    --fonte-destaque: 'Dancing Script', cursive;
+}
+
+header {
+    background-color: #000000e7;
+}
+
+header > a {
+    padding: 10px;
+    margin-top: 50px;
+    text-decoration: none;
+    color: var(--cor2);
+}
+header h1 {
+    font-family: var(--fonte-destaque);
+    color: #fff;
+    text-align: center;
+    font-size: 4rem;
+    padding: 10px;
+}
+
+main {
+    margin: auto;
+    text-align: center;
+    max-width: 100%;
+    background-color: rgba(3, 5, 5, 0.205);
+}
+
+.container {
+    max-width: 100rem;
+    margin: auto;
+}
+
+.foto {
+    height: 30rem;
+    width: 20rem;
+    margin: 1.5rem;
+    padding: .5rem;
+    border: 0.1rem solid #000 ;
+    display: inline-block;
+    border-radius: 0.5rem ;
+    position: relative;
+    font-size: 1.8rem;
+    box-shadow: 1px 5px 5px #00000057;
+}
+
+.foto-1 {
+    background-image: url('../imagens/galeria/foto1.jpg');
+    background-size: 100% 100%;
+}
+
+.foto-2 {
+    background-image: url('../imagens/galeria/foto2.jpg');
+    background-size: 100% 100%;
+}
+.foto-3 {
+    background-image: url('../imagens/galeria/foto3.jpg');
+    background-size: 100% 100%;
+}
+.foto-4 {
+    background-image: url('../imagens/galeria/foto4.jpg');
+    background-size: 100% 100%;
+}
+.foto-5 {
+    background-image: url('../imagens/galeria/foto5.jpg');
+    background-size: 100% 100%;
+}
+.foto-6 {
+    background-image: url('../imagens/galeria/foto6.jpg');
+    background-size: 100% 100%;
+}
+.foto-7 {
+    background-image: url('../imagens/galeria/foto7.jpg');
+    background-size: 100% 100%;
+}
+.foto-8 {
+    background-image: url('../imagens/galeria/foto8.jpg');
+    background-size: 100% 100%;
+}
+.foto-9 {
+    background-image: url('../imagens/galeria/foto9.jpg');
+    background-size: 100% 100%;
+}
+
+
+.foto {
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+}
+
+.foto:hover {
+    
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+ }
+
+footer p {
+    font-family: var(--fonte-padrao);
+    padding: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    background-color: #000000e7;
+    color: #fff;
+}
