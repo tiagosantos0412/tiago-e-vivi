@@ -1,5 +1,16 @@
+:root {
+    font-size: 62.5%;/*Equivalente a 10 pixels, para podermos trabalhar cm medidas relativas.*/
+}
+
 @media screen and (max-width: 600px){
+    header h1 {
+        font-size: 2rem;
+    }
+    header a {
+        margin-top: 15px;
+        font-size: 1.2rem;
+    }
     .retangulo2 p {
-       font-size: 12px;
+       font-size: 1.2rem;
     }
 }

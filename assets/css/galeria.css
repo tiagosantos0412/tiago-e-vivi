@@ -17,7 +17,7 @@
     --cor3: #cbcbcb;
     --cor4: #727272;
     --cor5: #222222;
-    --cor6: #efefdc69;
+    --cor6: #f9dcd685;
     
 
     --fonte-padrao: 'Open Sans', sans-serif;
@@ -48,7 +48,7 @@ main {
     margin: auto;
     text-align: center;
     max-width: 100%;
-    background-color: rgba(3, 5, 5, 0.205);
+    background-color: var(--cor6)
 }
 
 .container {
