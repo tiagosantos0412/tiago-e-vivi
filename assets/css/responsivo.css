@@ -13,4 +13,8 @@
     .retangulo2 p {
        font-size: 1.2rem;
     }
+
+    #menu > a {
+        font-size: 1.6rem;
+    }
 }
